@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TechBlog</title>
+    <link rel="stylesheet" href="css\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <!-- Logo -->
+        <div class="logo">
+
+        </div>
+        <!-- Navbar -->
+        <nav class="navcontainer">
+            <a href="#TechBlog" class="no-border-radius-left">Home</a>
+            <a href="#package-section" class="no-border-radius"> Blog </a>
+            <a href="#Callus" class="no-border-radius-right">Call Us!</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+        <header class="header-page">
+            <h1 class="header-page-h1" id="TechBlog">TechBlog</h1>
+            <h4 class="header-page-h14">Your Trusty Technology News</h4>
+        </header>
+
+        <div class="main-content">
+            <!-- Main Content Banner Auto Slide -->
+
+            <aside class="main-content-container">
+
+                <div class="main-banner banner-img1"></div>
+                <div class="main-banner banner-img2"></div>
+                <div class="main-banner banner-img3"></div>
+            </aside>
+            <buttton class="button" type="button" onclick="nextBanner()">></buttton>
+            <!-- Form -->
+            <aside class="form" id="Callus">
+                <h4 class="formh4">Form Sign In</h4>
+                <div>
+                    <label for="name-input">Name:
+                    </label>
+                    <input type="text" id="name-input" required>
+                    <br>
+                    <br>
+                    <label for="email">Email:
+                    </label>
+                    <input type="email" id="email-input" required>
+                    <br>
+                    <br>
+                    <div>
+                        <button type="button" onclick="validateForm()">Submit</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <!-- Main content -->
+        <h1 class="h1contents">News</h1>
+        <div id="package-section" class="news">
+
+            <div class="card">
+                <h2>Marijuana 1: Quantum Chip Pertama Dari Microsoft</h2>
+                <img src="https://media2.themorningcontext.com/media/posts_images/558x441_azure-quantum-topological-qubit-chip-1.jpg"
+                    alt="Chip Kuantum Dari Microsoft" width="100%" style="padding: 10px 0 10px 0;">
+                <p>Pada 19 Februari 2025, Microsoft menggebrak dunia teknologi dengan memperkenalkan Majorana 1, chip
+                    komputasi kuantum pertama mereka yang diklaim mampu mempercepat realisasi impian tersebut. Chip ini
+                    bukan sekadar inovasi biasa, melainkan hasil dari hampir dua dekade penelitian yang melibatkan
+                    perpaduan material canggih dan ide-ide revolusioner.</p>
+            </div>
+            <div class="card">
+                <h2>RTX 5090: Kabel Konektor Meleleh??</h2>
+                <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2025/02/melted-rtx-5090-power-cable-end.jpg"
+                    alt="Kabel Rtx 5090 meleleh from" width="100%" style="padding: 10px 0 10px 0;">
+                <p>Kasus konektor daya meleleh kembali menghantui pengguna GeForce RTX 5090, mengingatkan kembali pada
+                    masalah serupa yang sempat terjadi pada generasi sebelumnya. Seorang pengguna Reddit, ivan6953,
+                    melaporkan bahwa konektor 12V-2×6 pada RTX 5090 Founders Edition miliknya meleleh saat memainkan
+                    Battlefield 5, menyebabkan kerusakan parah pada kartu grafis dan PSU ASUS ROG Loki SFX-L miliknya.
+                </p>
+            </div>
+            <div class="card">
+                <h2>AMD Radeon RX 9070 XT: Harga bocor di daftar MicroCenter, dan berharap ini candaan</h2>
+                <img src="https://cdn.mos.cms.futurecdn.net/3BG7ouDAhuWYzUbf4zEQWQ-970-80.jpg.webp"
+                    alt="RX 9070 AMD from Techradar" width="100%" style="padding: 10px 0 10px 0;">
+                <p>Seperti dilaporkan oleh VideoCardz, seri AMD Radeon RX 9070 telah terdaftar di MicroCenter dengan RX
+                    9070 XT yang seharusnya mulai dari $699, sementara rekan RX 9070-nya terdaftar di $649. Ini juga
+                    mencakup beberapa model overclocked lainnya untuk RX 9070 XT dan non-XT, yang tidak akan kami
+                    posting karena telah dihapus, dan harga ini mirip dengan yang terdaftar untuk jajaran GPU Blackwell
+                    baru dari Nvidia, yang telah mengalami inflasi pengecer yang drastis, dengan beberapa kartu Radeon
+                    baru terdaftar seharga $1.099.</p>
+            </div>
+            <div class="card">
+                <h2>Laptop Axioo: Rilis Laptop Axioo Hype 7 AMD X8</h2>
+                <img src="https://www.jagatreview.com/wp-content/uploads/2025/02/Tampak-Depan-Axioo-HYPE-7-AMD-X8.png"
+                    alt="Axioo Hype 7 Jagat Reevieew
+                " width="100%" style="padding: 10px 0 10px 0;">
+                <p>Laptop ini dibekali prosesor AMD Ryzen 7 6800H serta kartu grafis AMD Radeon 680M, yang menjadikannya andal
+                    untuk berbagai kebutuhan, mulai dari pekerjaan produktivitas seperti mengolah data dan membuat
+                    presentasi, hingga tugas yang lebih berat seperti rendering dan editing video.
+                </p>
+            </div>
+        </div>
+    </main>
+    <br>
+    <!-- footer -->
+   <footer><hr>
+    <div class="footer">
+        <h3>Website Milik : Dechy/Steven</h3>
+        <h3>Mini Project RevoU SEFC_B02172025</h3>
+        <h4>Revou&copy;2025</h4>
+    </div>
+   </footer>  
+    <!-- End -->
+    <script src="script\script.js"></script>
+</body>
+
+</html>
